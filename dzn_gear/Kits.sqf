@@ -40,15 +40,19 @@
 #define NIGHT_ITEM(X)	if (daytime < 9 || daytime > 18) then { X } else { "" }
 
 // ******** ASSIGNED and UNIFORM ITEMS MACRO ********
-#define NVG_NIGHT_ITEM		if (daytime < 9 || daytime > 18) then { "NVGoggles_OPFOR" } else { "" }
+#define NVG_NIGHT_ITEM		if (daytime < 9 || daytime > 18) then { "" } else { "" }
 #define BINOCULAR_ITEM		"Binocular"
 
-#define ASSIGNED_ITEMS		"ItemMap","ItemCompass","ItemWatch","ItemRadio", NVG_NIGHT_ITEM
-#define ASSIGNED_ITEMS_L	"ItemMap","ItemCompass","ItemWatch","ItemRadio", NVG_NIGHT_ITEM, BINOCULAR_ITEM
+#define ASSIGNED_ITEMS		"ItemMap","ItemCompass","ItemWatch", NVG_NIGHT_ITEM
+#define ASSIGNED_ITEMS_L	"ItemMap","ItemCompass","ItemWatch", NVG_NIGHT_ITEM, BINOCULAR_ITEM
 
-#define UNIFORM_ITEMS		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_MX991",1],["ACE_EarPlugs",1]
-#define UNIFORM_ITEMS_L		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_MX991",1],["ACE_EarPlugs",1],["ACE_MapTools",1]
+#define UNIFORM_ITEMS		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_CableTie",2],["ACE_Flashlight_MX991",1],["ACE_EarPlugs",1]
+#define UNIFORM_ITEMS_L		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_CableTie",2],["ACE_Flashlight_MX991",1],["ACE_EarPlugs",1],["ACE_MapTools",1]
 // ****************
+
+//
+// US army
+//
 
 #define us_face ["","","","","","G_Spectacles_Tinted","G_Spectacles","G_Squares"]
 #define us_bp ["usm_pack_alice","CUP_B_AlicePack_Bedroll","CUP_B_AlicePack_Khaki"]
@@ -129,8 +133,82 @@ cargo_kit_us = [
 	[]
 ];
 
-kit_vc_r = [
-	["<EQUIPEMENT >>  ","CUP_U_O_SLA_Overalls_Tank","CUP_V_O_Ins_Carrier_Rig","","H_Booniehat_tan",""],
+#define captive_head ["","","","H_HeadBandage_clean_F","H_HeadBandage_stained_F","H_HeadBandage_bloody_F"]
+
+kit_us_captive = [
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","","",captive_head,""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+//
+// Viet Cong partisans
+//
+
+#define vc_hat ["TRYK_H_Bandana_H","TRYK_H_Bandana_wig","TRYK_H_Bandana_wig_g","H_Hat_Safari_olive_F","H_Booniehat_khk","H_Booniehat_oli","CUP_H_TK_Helmet"]
+#define vc_uni ["CUP_U_O_SLA_Overalls_Tank","U_I_C_Soldier_Para_5_F","U_I_C_Soldier_Bandit_5_F","U_I_C_Soldier_Bandit_1_F"]
+#define vc_vest ["CUP_V_I_Carrier_Belt","CUP_V_O_SLA_Carrier_Belt02","CUP_V_O_Ins_Carrier_Rig"]
+
+kit_vc_ar = [ "kit_vc_ar1"
+			,"kit_vc_ar2","kit_vc_ar2","kit_vc_ar2"
+];
+
+kit_vc_ar1 = [
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_rpk_75rnd","hlc_75Rnd_762x39_Drum",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",2]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_vc_ar2 = [
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<PRIMARY WEAPON >>  ","CUP_lmg_UK59","CUP_50Rnd_UK59_762x54R_Tracer",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",2]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_vc_r = [ "kit_vc_scorp"
+			,"kit_vc_pm","kit_vc_pm",
+			,"kit_vc_sks","kit_vc_sks","kit_vc_sks","kit_vc_sks",
+];
+
+kit_vc_scorp = [
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_SA61","CUP_10Rnd_B_765x17_Ball_M",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["CUP_20Rnd_B_765x17_Ball_M",10]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_vc_pm = [
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["HANDGUN MAG",10]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_vc_sks = [
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
 	["<PRIMARY WEAPON >>  ","arifle_KA_SKS_F","10Rnd_M43_762x39_Ball",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -139,13 +217,34 @@ kit_vc_r = [
 	["<VEST ITEMS >> ",[["10Rnd_BP_762x39_AP",10],["rhs_mag_rgd5",3]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
+
+//
+// Nothern Vietnam Army
+//
+
+#define nva_hat ["CUP_H_ChDKZ_Cap","CUP_H_SLA_Helmet","CUP_H_TK_Helmet"]
+#define nva_u ["CUP_U_O_SLA_MixedCamo","CUP_U_O_Partisan_TTsKO","CUP_U_O_Partisan_TTsKO_Mixed","CUP_U_O_Partisan_VSR_Mixed1","CUP_U_O_Partisan_VSR_Mixed2"]
+#define nva_r_w ["rhs_weap_akm","rhs_weap_akmn","rhs_weap_akms","CUP_arifle_Sa58P","CUP_arifle_Sa58V"]
+#define nva_r_a ["rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","CUP_30Rnd_Sa58_M_TracerG","CUP_30Rnd_Sa58_M_TracerG"]
+
 kit_nva_r = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","CUP_V_O_Ins_Carrier_Rig","","H_Booniehat_khk",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_akm","rhs_30Rnd_762x39mm",["rhs_acc_dtkakm","","",""]],
+	["<EQUIPEMENT >>  ",nva_u,vc_vest,"",nva_hat,""],
+	["<PRIMARY WEAPON >>  ",nva_r_w ,nva_r_a,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",5]]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",9]]],
 	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_nva_og = [
+	["<EQUIPEMENT >>  ",nva_u,vc_vest,"",nva_hat,""],
+	["<PRIMARY WEAPON >>  ",nva_r_w ,nva_r_a,["","","",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_rpg7","rhs_rpg7_OG7V_mag",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",9]]],
+	["<BACKPACK ITEMS >> ",[["rhs_rpg7_OG7V_mag",4]]]
 ];
