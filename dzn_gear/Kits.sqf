@@ -125,3 +125,24 @@ cargo_kit_us = [
 	[["ACE_fieldDressing",20],["ACE_packingBandage",20],["ACE_elasticBandage",20],["ACE_tourniquet",10],["ACE_morphine",10],["ACE_epinephrine",10],["ACE_quikclot",20],["ACE_Flashlight_MX991",10]],
 	[]
 ];
+
+kit_vc_r = [
+	["<EQUIPEMENT >>  ","CUP_U_O_SLA_Overalls_Tank","CUP_V_O_Ins_Carrier_Rig","","H_Booniehat_tan",""],
+	["<PRIMARY WEAPON >>  ","arifle_KA_SKS_F","10Rnd_M43_762x39_Ball",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["10Rnd_BP_762x39_AP",10],["rhs_mag_rgd5",3]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+kit_nva_r = [
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","CUP_V_O_Ins_Carrier_Rig","","H_Booniehat_khk",""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_akm","rhs_30Rnd_762x39mm",["rhs_acc_dtkakm","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",5]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
