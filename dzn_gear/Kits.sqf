@@ -53,9 +53,12 @@
 #define us_face ["","","","","","G_Spectacles_Tinted","G_Spectacles","G_Squares"]
 #define us_bp ["usm_pack_alice","CUP_B_AlicePack_Bedroll","CUP_B_AlicePack_Khaki"]
 
+#define us_r_w ["RH_M16a1","CUP_srifle_M14"]
+#define us_r_a ["20Rnd_556x45_Stanag","CUP_20Rnd_762x51_DMR"]
+
 kit_us_pl = [
 	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_st138_prc77","CUP_H_USArmy_Helmet_M1_Olive",us_face],
-	["<PRIMARY WEAPON >>  ","RH_M16a1","20Rnd_556x45_Stanag",["","","",""]],
+	["<PRIMARY WEAPON >>  ",us_r_w,us_r_a,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -66,7 +69,7 @@ kit_us_pl = [
 
 kit_us_sl = [
 	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_st138_prc77","CUP_H_USArmy_Helmet_M1_Olive",us_face],
-	["<PRIMARY WEAPON >>  ","RH_M16a1","20Rnd_556x45_Stanag",["","","",""]],
+	["<PRIMARY WEAPON >>  ",us_r_w,us_r_a,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -98,19 +101,19 @@ kit_us_ar = [
 ];
 
 kit_us_gr = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp",us_bp,"CUP_H_USArmy_Helmet_M1_Olive",us_face],
-	["<PRIMARY WEAPON >>  ","RH_M16a1","20Rnd_556x45_Stanag",["","","",""]],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","usm_pack_abag_m60","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<PRIMARY WEAPON >>  ","CUP_glaunch_M79","1Rnd_HE_Grenade_shell",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_m1911a1","rhsusf_mag_7x45acp_MHP",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[]],
-	["<VEST ITEMS >> ",[UNIFORM_ITEMS,["HandGrenade",2],["PRIMARY MAG",9]]],
-	["<BACKPACK ITEMS >> ",[["CUP_glaunch_M79",1],["1Rnd_HE_Grenade_shell",25],["1Rnd_SmokeRed_Grenade_shell",4],["CUP_1Rnd_Smoke_M203",4],["UGL_FlareGreen_F",4]]]
+	["<VEST ITEMS >> ",[UNIFORM_ITEMS,["HandGrenade",2],["PRIMARY MAG",24],["1Rnd_SmokeRed_Grenade_shell",4],["CUP_1Rnd_Smoke_M203",4],["UGL_FlareGreen_F",4]]],
+	["<BACKPACK ITEMS >> ",[["HANDGUN MAG",8]]]
 ];
 
 kit_us_r = [
 	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rm",us_bp,"CUP_H_USArmy_Helmet_M1_Olive",us_face],
-	["<PRIMARY WEAPON >>  ","RH_M16a1","20Rnd_556x45_Stanag",["","","",""]],
+	["<PRIMARY WEAPON >>  ",us_r_w,us_r_a,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","CUP_launch_M72A6","ACE_PreloadedMissileDummy_M72A6_CUP",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -121,7 +124,7 @@ kit_us_r = [
 
 cargo_kit_us = [
 	[["CUP_launch_M72A6",5]],
-	[["rhsusf_100Rnd_762x51_m62_tracer",30],["rhsusf_mag_7x45acp_MHP",10],["HandGrenade",20],["20Rnd_556x45_Stanag",40],["1Rnd_HE_Grenade_shell",50],["1Rnd_SmokeRed_Grenade_shell",10],["CUP_1Rnd_Smoke_M203",10],["UGL_FlareGreen_F",10],["SmokeShell",10],["SmokeShellGreen",10]],
+	[["rhsusf_100Rnd_762x51_m62_tracer",30],["rhsusf_mag_7x45acp_MHP",10],["HandGrenade",20],["20Rnd_556x45_Stanag",40],["CUP_20Rnd_762x51_DMR",40],["1Rnd_HE_Grenade_shell",50],["1Rnd_SmokeRed_Grenade_shell",10],["CUP_1Rnd_Smoke_M203",10],["UGL_FlareGreen_F",10],["SmokeShell",10],["SmokeShellGreen",10]],
 	[["ACE_fieldDressing",20],["ACE_packingBandage",20],["ACE_elasticBandage",20],["ACE_tourniquet",10],["ACE_morphine",10],["ACE_epinephrine",10],["ACE_quikclot",20],["ACE_Flashlight_MX991",10]],
 	[]
 ];
