@@ -39,3 +39,7 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 	PlayerConnectedData pushBack _this;
 	publicVariable "PlayerConnectedData";
 }];
+
+if ("par_map" call BIS_fnc_getParamValue == 0) then {
+	"hide_map" setMarkerAlpha 1;
+};

@@ -14,6 +14,13 @@ respawnDelay = 9999999;
 
 class Params
 {   
+	class par_map
+	{
+	    title = "Allow map auto-discovery?";
+	    values[] = {0,1};
+	    default = 1;
+	    texts[] = {"no","yes"};
+	};
 	class par_daytime
 	{
 	    title = "Время суток";
