@@ -159,7 +159,7 @@ kit_vc_ar = [ "kit_vc_ar1"
 ];
 
 kit_vc_ar1 = [
-	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,"",vc_hat,""],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_rpk_75rnd","hlc_75Rnd_762x39_Drum",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -170,7 +170,7 @@ kit_vc_ar1 = [
 ];
 
 kit_vc_ar2 = [
-	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,"",vc_hat,""],
 	["<PRIMARY WEAPON >>  ","CUP_lmg_UK59","CUP_50Rnd_UK59_762x54R_Tracer",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -181,12 +181,12 @@ kit_vc_ar2 = [
 ];
 
 kit_vc_r = [ "kit_vc_scorp"
-			,"kit_vc_pm","kit_vc_pm",
-			,"kit_vc_sks","kit_vc_sks","kit_vc_sks","kit_vc_sks",
+			,"kit_vc_pm","kit_vc_pm"
+			,"kit_vc_sks","kit_vc_sks","kit_vc_sks","kit_vc_sks"
 ];
 
 kit_vc_scorp = [
-	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,"",vc_hat,""],
 	["<PRIMARY WEAPON >>  ","","",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_SA61","CUP_10Rnd_B_765x17_Ball_M",["","","",""]],
@@ -197,7 +197,7 @@ kit_vc_scorp = [
 ];
 
 kit_vc_pm = [
-	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,"",vc_hat,""],
 	["<PRIMARY WEAPON >>  ","","",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
@@ -208,7 +208,7 @@ kit_vc_pm = [
 ];
 
 kit_vc_sks = [
-	["<EQUIPEMENT >>  ",vc_uni,vc_vest,vc_hat,""],
+	["<EQUIPEMENT >>  ",vc_uni,vc_vest,"",vc_hat,""],
 	["<PRIMARY WEAPON >>  ","arifle_KA_SKS_F","10Rnd_M43_762x39_Ball",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
