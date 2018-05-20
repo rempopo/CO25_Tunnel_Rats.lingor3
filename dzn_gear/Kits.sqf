@@ -154,6 +154,10 @@ kit_us_captive = [
 #define vc_uni ["CUP_U_O_SLA_Overalls_Tank","U_I_C_Soldier_Para_5_F","U_I_C_Soldier_Bandit_5_F","U_I_C_Soldier_Bandit_1_F"]
 #define vc_vest ["CUP_V_I_Carrier_Belt","CUP_V_O_SLA_Carrier_Belt02","CUP_V_O_Ins_Carrier_Rig"]
 
+kit_vc_random = [ "kit_vc_r","kit_vc_r""kit_vc_r""kit_vc_r""kit_vc_r"
+		,"kit_vc_ar"
+];
+
 kit_vc_ar = [ "kit_vc_ar1"
 			,"kit_vc_ar2","kit_vc_ar2","kit_vc_ar2"
 ];
@@ -226,6 +230,10 @@ kit_vc_sks = [
 #define nva_u ["CUP_U_O_SLA_MixedCamo","CUP_U_O_Partisan_TTsKO","CUP_U_O_Partisan_TTsKO_Mixed","CUP_U_O_Partisan_VSR_Mixed1","CUP_U_O_Partisan_VSR_Mixed2"]
 #define nva_r_w ["rhs_weap_akm","rhs_weap_akmn","rhs_weap_akms","CUP_arifle_Sa58P","CUP_arifle_Sa58V"]
 #define nva_r_a ["rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","CUP_30Rnd_Sa58_M_TracerG","CUP_30Rnd_Sa58_M_TracerG"]
+
+kit_nva_random = [ "kit_nva_r","kit_nva_r","kit_nva_r","kit_nva_r"
+		,"kit_nva_og"
+];
 
 kit_nva_r = [
 	["<EQUIPEMENT >>  ",nva_u,vc_vest,"",nva_hat,""],
