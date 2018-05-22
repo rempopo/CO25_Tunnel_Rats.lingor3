@@ -15,15 +15,14 @@
 #define	INTRACTIVES_TABLE_END	];
 
 INTRACTIVES_TABLE
-	/*
+
 	[
-		["Land_ToiletBox_F"]
+		[tell_me]
 		, {
-			_this addAction ["Check it", {hint "This is toilet box"}];
+			_this addAction ["Interrogate NVA Officer", {hint "Alright, alright, we moved the rest of POWs into the tunnels around this village";"show_it" setMarkerAlpha 1;}];
 		}
-		, "client"
-		, false
+		, "global"
+		, true
 	]
-	*/
 	
 INTRACTIVES_TABLE_END

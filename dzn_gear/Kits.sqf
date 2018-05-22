@@ -256,3 +256,14 @@ kit_nva_og = [
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",9]]],
 	["<BACKPACK ITEMS >> ",[["rhs_rpg7_OG7V_mag",4]]]
 ];
+
+kit_nva_vip = [
+	["<EQUIPEMENT >>  ","CUP_U_O_SLA_MixedCamo","CUP_V_O_TK_OfficerBelt","","CUP_H_SLA_OfficerCap",""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Makarov","CUP_8Rnd_9x18_Makarov_M",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[]],
+	["<BACKPACK ITEMS >> ",[]]
+];

@@ -19,7 +19,7 @@ tSF_module_tSNotesSettings = true;
 
 tSF_module_CCP = true;
 tSF_module_FARP = true;
-tSF_module_Interactives = false;
+tSF_module_Interactives = true;
 tSF_module_ACEActions = true;
 tSF_module_AirborneSupport = false;
 tSF_module_ArtillerySupport = false;

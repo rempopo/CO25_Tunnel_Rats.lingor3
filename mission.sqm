@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=3152;
+		nextID=3167;
 	};
 	class MarkerIDProvider
 	{
-		nextID=7;
+		nextID=8;
 	};
 	class LayerIndexProvider
 	{
-		nextID=301;
+		nextID=303;
 	};
 	class Camera
 	{
-		pos[]={5470.8203,63.487152,5032.7314};
-		dir[]={0.38271636,-0.63410443,0.67206925};
-		up[]={0.31384137,0.77310085,0.55111659};
-		aside[]={0.86906904,-2.2795575e-006,-0.49490511};
+		pos[]={2992.4797,111.38403,7919.1128};
+		dir[]={-0.83572799,-0.52579045,-0.15912019};
+		up[]={-0.51657224,0.85056424,-0.098349966};
+		aside[]={-0.18704839,8.8366505e-007,0.98245656};
 	};
 };
 binarizationWanted=0;
@@ -393,7 +393,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=28;
+		items=31;
 		class Item0
 		{
 			dataType="Layer";
@@ -48282,601 +48282,623 @@ class Mission
 								class Item0
 								{
 									dataType="Marker";
-									position[]={8366.1211,26.660999,7244.5156};
+									position[]={6943.8203,38.39328,6996.1875};
 									name="marker_49";
 									markerType="RECTANGLE";
 									type="rectangle";
-									colorName="ColorWhite";
+									colorName="ColorBlack";
 									fillName="SolidFull";
 									a=1424.387;
 									b=1497.9023;
 									id=2227;
-									atlOffset=13.387231;
+									atlOffset=26.22328;
 								};
 								class Item1
 								{
 									dataType="Marker";
-									position[]={7612.8579,26.306,7958.0151};
+									position[]={6190.5571,46.519051,7709.687};
 									name="c12";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=240;
 									angle=292.36185;
 									id=2232;
-									atlOffset=43.213333;
+									atlOffset=56.049393;
 								};
 								class Item2
 								{
 									dataType="Marker";
-									position[]={8058.4043,30.32,7775.7686};
+									position[]={6636.1035,34.147102,7527.4404};
 									name="c9";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=250.00577;
 									angle=292.36185;
 									id=2233;
-									atlOffset=25.379999;
+									atlOffset=38.216049;
 								};
 								class Item3
 								{
 									dataType="Marker";
-									position[]={8036.5098,26.389,8305.7051};
+									position[]={6614.209,22.752104,8057.377};
 									name="a10";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=224;
 									angle=267.21091;
 									id=2234;
-									atlOffset=34.966053;
+									atlOffset=47.802101;
 								};
 								class Item4
 								{
 									dataType="Marker";
-									position[]={7594.1382,17.73,8189.6182};
+									position[]={6171.8374,21.558428,7941.29};
 									name="b11";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=224;
 									angle=243.18697;
 									id=2296;
-									atlOffset=25.922379;
+									atlOffset=38.75843;
 								};
 								class Item5
 								{
 									dataType="Marker";
-									position[]={8303.7881,26.309,7982.2915};
+									position[]={6881.4873,30.167809,7733.9634};
 									name="b9";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=292.90363;
 									angle=178.332;
 									id=2236;
-									atlOffset=34.551758;
+									atlOffset=47.38781;
 								};
 								class Item6
 								{
 									dataType="Marker";
-									position[]={8484.793,26.389,7429.7441};
+									position[]={7062.4922,42.11554,7181.416};
 									name="a8";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=247.84766;
 									angle=326.00397;
 									id=2237;
-									atlOffset=18.171352;
+									atlOffset=31.007404;
 								};
 								class Item7
 								{
 									dataType="Marker";
-									position[]={8901.915,36.212002,7291.7227};
+									position[]={7479.6143,0.17703056,7043.3945};
 									name="b8";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=235.47963;
 									angle=240.80498;
 									id=2238;
-									atlOffset=3.7771225;
+									atlOffset=16.613174;
 								};
 								class Item8
 								{
 									dataType="Marker";
-									position[]={9294.7559,26.865999,7253.4131};
+									position[]={7872.4551,39.738876,7005.085};
 									name="b7";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=18;
 									b=240;
 									angle=309.67801;
 									id=2239;
-									atlOffset=44.092827;
+									atlOffset=56.928879;
 								};
 								class Item9
 								{
 									dataType="Marker";
-									position[]={9420.5986,29.854,6944.5142};
+									position[]={7998.2979,65.897171,6696.186};
 									name="a7";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=168;
 									angle=15.96;
 									id=2240;
-									atlOffset=47.111603;
+									atlOffset=59.947655;
 								};
 								class Item10
 								{
 									dataType="Marker";
-									position[]={9147.0918,27.576,6796.0239};
+									position[]={7724.791,38.781006,6547.6958};
 									name="a5";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=245.39307;
 									angle=270;
 									id=2241;
-									atlOffset=43.134956;
+									atlOffset=55.971008;
 								};
 								class Item11
 								{
 									dataType="Marker";
-									position[]={8940.207,26.568001,6614.8149};
+									position[]={7517.9063,27.946594,6366.4868};
 									name="c5";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=168;
 									angle=346.62778;
 									id=2242;
-									atlOffset=32.030075;
+									atlOffset=44.866127;
 								};
 								class Item12
 								{
 									dataType="Marker";
-									position[]={8622.9219,26.451,6767.4141};
+									position[]={7200.6211,41.596474,6519.0859};
 									name="b3";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=244.70996;
 									angle=270;
 									id=2243;
-									atlOffset=33.184372;
+									atlOffset=46.020424;
 								};
 								class Item13
 								{
 									dataType="Marker";
-									position[]={8711.5371,26.267,6406.0928};
+									position[]={7289.2363,41.408302,6157.7646};
 									name="b4";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=243.06494;
 									angle=270;
 									id=2244;
-									atlOffset=43.459198;
+									atlOffset=56.29525;
 								};
 								class Item14
 								{
 									dataType="Marker";
-									position[]={8001.9917,40.403999,6776.9678};
+									position[]={6579.6909,57.258873,6528.6396};
 									name="c2";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=288.55957;
 									angle=270;
 									id=2246;
-									atlOffset=32.232826;
+									atlOffset=45.068874;
 								};
 								class Item15
 								{
 									dataType="Marker";
-									position[]={7519.4492,26.264999,6553.8721};
+									position[]={6097.1484,82.757301,6305.5439};
 									name="b1";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=260.7002;
 									angle=220.92593;
 									id=2247;
-									atlOffset=43.243896;
+									atlOffset=56.079945;
 								};
 								class Item16
 								{
 									dataType="Marker";
-									position[]={9124.6719,26.392,7597.6699};
+									position[]={7702.3711,11.621128,7349.3418};
 									name="c13";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=208;
 									angle=2.9949999;
 									id=2248;
-									atlOffset=15.97508;
+									atlOffset=28.811129;
 								};
 								class Item17
 								{
 									dataType="Marker";
-									position[]={9136.2441,26.319,7797.6011};
+									position[]={7713.9434,-8.2646809,7549.2729};
 									name="b13";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=18;
 									b=328;
 									angle=272.20697;
 									id=2249;
-									atlOffset=-3.8807335;
+									atlOffset=8.9553185;
 								};
 								class Item18
 								{
 									dataType="Marker";
-									position[]={8829.0928,26.389,7949.4189};
+									position[]={7406.792,-17.200001,7701.0908};
 									name="a13";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=152;
 									angle=182.9859;
 									id=2250;
-									atlOffset=-16.310001;
 								};
 								class Item19
 								{
 									dataType="Marker";
-									position[]={8791.4697,42.799999,8232.2676};
+									position[]={7369.1689,24.492674,7983.9395};
 									name="r5";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=152;
 									angle=342.694;
 									id=2251;
-									atlOffset=24.932074;
+									atlOffset=37.768124;
 								};
 								class Item20
 								{
 									dataType="Marker";
-									position[]={8844.791,40.709,8412.0615};
+									position[]={7422.4902,23.358898,8163.7334};
 									name="r4";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=120;
 									angle=243.83701;
 									id=2252;
-									atlOffset=25.492107;
+									atlOffset=38.328156;
 								};
 								class Item21
 								{
 									dataType="Marker";
-									position[]={7463.2432,26.268,6249.6138};
+									position[]={6040.9424,49.083466,6001.2856};
 									name="c1";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=136;
 									angle=297.20999;
 									id=2254;
-									atlOffset=42.744217;
+									atlOffset=55.580269;
 								};
 								class Item22
 								{
 									dataType="Marker";
-									position[]={8064.5962,26.275999,6588.9775};
+									position[]={6642.2954,57.659538,6340.6494};
 									name="a2";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=398.26474;
 									angle=292.05301;
 									id=2285;
-									atlOffset=32.633492;
+									atlOffset=45.46954;
 								};
 								class Item23
 								{
 									dataType="Marker";
-									position[]={9214.3555,28.709,6401.7148};
+									position[]={7792.0547,41.625046,6153.3867};
 									name="a6";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=168;
 									angle=270.79391;
 									id=2270;
-									atlOffset=45.948997;
+									atlOffset=58.785046;
 								};
 								class Item24
 								{
 									dataType="Marker";
-									position[]={7602.3872,42.700001,6171.6655};
+									position[]={6180.0864,85.589409,5923.3374};
 									name="el1";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									alpha=0;
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2395;
-									atlOffset=59.784054;
+									atlOffset=72.620102;
 								};
 								class Item25
 								{
 									dataType="Marker";
-									position[]={7697.8252,27.257,6752.8223};
+									position[]={6275.5244,69.320023,6504.4941};
 									name="m2";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2396;
-									atlOffset=44.446999;
+									atlOffset=57.283051;
 								};
 								class Item26
 								{
 									dataType="Marker";
-									position[]={8456.3857,23.398438,6415.9214};
+									position[]={7034.085,65.614487,6167.5933};
 									name="m4";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2397;
-									atlOffset=40.58844;
+									atlOffset=53.424488;
 								};
 								class Item27
 								{
 									dataType="Marker";
-									position[]={8324.9326,56.712002,6781.6411};
+									position[]={6902.6318,98.69136,6533.313};
 									name="m3";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorEAST";
+									colorName="ColorGreen";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2398;
-									atlOffset=73.665306;
+									atlOffset=86.501358;
 								};
 								class Item28
 								{
 									dataType="Marker";
-									position[]={8889.583,40.890999,6790.917};
+									position[]={7467.2822,36.250896,6542.5889};
 									name="m5";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2399;
-									atlOffset=40.171127;
+									atlOffset=53.007179;
 								};
 								class Item29
 								{
 									dataType="Marker";
-									position[]={9000.4297,23.334,6398.877};
+									position[]={7578.1289,36.413788,6150.5488};
 									name="m6";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2400;
-									atlOffset=40.573997;
+									atlOffset=53.410046;
 								};
 								class Item30
 								{
 									dataType="Marker";
-									position[]={9395.791,42.611,6401.8052};
+									position[]={7973.4902,55.54705,6153.4771};
 									name="er1";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									alpha=0;
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2401;
-									atlOffset=59.871002;
+									atlOffset=72.707047;
 								};
 								class Item31
 								{
 									dataType="Marker";
-									position[]={9481.0068,38.405998,7114.041};
+									position[]={8058.7061,70.286613,6865.7129};
 									name="m7";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorEAST";
+									colorName="ColorGreen";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2402;
-									atlOffset=55.666;
+									atlOffset=68.502045;
 								};
 								class Item32
 								{
 									dataType="Marker";
-									position[]={8660.5801,53.410999,7192.4028};
+									position[]={7238.2793,67.024887,6944.0747};
 									name="m8";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2403;
-									atlOffset=46.124325;
+									atlOffset=58.960377;
 								};
 								class Item33
 								{
 									dataType="Marker";
-									position[]={8330.876,36.688999,7664.7363};
+									position[]={6908.5752,52.799721,7416.4082};
 									name="m9";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2404;
-									atlOffset=43.108627;
+									atlOffset=55.944675;
 								};
 								class Item34
 								{
 									dataType="Marker";
-									position[]={9470.9248,42.645,7798.9868};
+									position[]={8048.624,79.500839,7550.6587};
 									name="er2";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									alpha=0;
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2405;
-									atlOffset=59.904999;
+									atlOffset=72.741051;
 								};
 								class Item35
 								{
 									dataType="Marker";
-									position[]={9618.7949,42.742001,8379.8477};
+									position[]={8196.4941,74.278374,8131.5195};
 									name="er3";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									alpha=0;
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2406;
-									atlOffset=60.001999;
+									atlOffset=72.838051;
 								};
 								class Item36
 								{
 									dataType="Marker";
-									position[]={8963.4619,63.132,8473.8594};
+									position[]={7541.1611,66.406639,8225.5313};
 									name="er4";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									alpha=0;
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2407;
-									atlOffset=54.904266;
+									atlOffset=67.740311;
 								};
 								class Item37
 								{
 									dataType="Marker";
-									position[]={7782.769,28.566,8289.6611};
+									position[]={6360.4683,38.149296,8041.333};
 									name="m11";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2408;
-									atlOffset=45.769112;
+									atlOffset=58.605156;
 								};
 								class Item38
 								{
 									dataType="Marker";
-									position[]={8290.1875,44.279999,8316.6631};
+									position[]={6867.8867,5.0987949,8068.335};
 									name="m10";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorEAST";
+									colorName="ColorGreen";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2409;
-									atlOffset=15.779999;
+									atlOffset=28.616049;
 								};
 								class Item39
 								{
 									dataType="Marker";
-									position[]={7377.2212,30.334999,8040.7319};
+									position[]={5954.9204,39.277039,7792.4038};
 									name="m12";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2410;
-									atlOffset=43.656181;
+									atlOffset=56.492229;
 								};
 								class Item40
 								{
@@ -48895,215 +48917,219 @@ class Mission
 								class Item42
 								{
 									dataType="Marker";
-									position[]={7399.688,26.375,6851.0581};
+									position[]={5977.3872,69.929565,6602.73};
 									name="a1";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=456;
 									angle=11.100997;
 									id=2228;
-									atlOffset=42.303062;
+									atlOffset=55.139114;
 								};
 								class Item43
 								{
 									dataType="Marker";
-									position[]={7363.1851,22.483,6985.002};
+									position[]={5940.8843,60.403458,6736.6738};
 									name="a1a";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=64;
 									angle=290.88901;
 									id=2230;
-									atlOffset=35.387405;
+									atlOffset=48.223457;
 								};
 								class Item44
 								{
 									dataType="Marker";
-									position[]={7428.0757,26.386999,7652.585};
+									position[]={6005.7749,44.705917,7404.2568};
 									name="a12";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=373.80127;
 									angle=170.92592;
 									id=2229;
-									atlOffset=43.556999;
+									atlOffset=56.393051;
 								};
 								class Item45
 								{
 									dataType="Marker";
-									position[]={7371.104,26.382,7507.7402};
+									position[]={5948.8032,63.674797,7259.4121};
 									name="a12a";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=88;
 									angle=256.84;
 									id=2231;
-									atlOffset=43.259689;
+									atlOffset=56.095737;
 								};
 								class Item46
 								{
 									dataType="Marker";
-									position[]={9115.0967,26.695,7436.4849};
+									position[]={7692.7959,32.799431,7188.1567};
 									name="x1";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=43.708;
 									angle=2.9949999;
 									id=2449;
-									atlOffset=37.153381;
+									atlOffset=49.989433;
 								};
 								class Item47
 								{
 									dataType="Marker";
-									position[]={7319.9556,30.278042,6351.1875};
+									position[]={5897.6548,89.560997,6102.8589};
 									name="m1";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2451;
-									atlOffset=44.107533;
+									atlOffset=56.94334;
 								};
 								class Item48
 								{
 									dataType="Marker";
-									position[]={8838.9658,73.545265,7812.52};
+									position[]={7416.665,33.344017,7564.1919};
 									name="m13";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlack";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2453;
-									atlOffset=37.597969;
+									atlOffset=50.434017;
 								};
 								class Item49
 								{
 									dataType="Marker";
-									position[]={7274.0874,23.087196,7487.7813};
+									position[]={5851.7866,60.151581,7239.4531};
 									name="el3";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									alpha=0;
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2454;
-									atlOffset=39.412483;
+									atlOffset=52.248539;
 								};
 								class Item50
 								{
 									dataType="Marker";
-									position[]={7296.2495,45.770275,7013.4644};
+									position[]={5873.9487,67.924309,6765.1362};
 									name="el2";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									alpha=0;
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2455;
-									atlOffset=42.908257;
+									atlOffset=55.744308;
 								};
 								class Item51
 								{
 									dataType="Marker";
-									position[]={9168.2119,58.147354,8220.5938};
+									position[]={7745.9111,47.16922,7972.2656};
 									name="r1";
 									markerType="RECTANGLE";
 									type="rectangle";
+									colorName="ColorWhite";
 									alpha=0;
 									fillName="SolidFull";
 									a=16;
 									b=464;
 									angle=70.759995;
 									id=2456;
-									atlOffset=48.457359;
+									atlOffset=61.293407;
 								};
 								class Item52
 								{
 									dataType="Marker";
-									position[]={8364.1172,12.497,5932.29};
+									position[]={6941.8159,54.682999,5683.9619};
 									name="hide_map_1";
 									markerType="RECTANGLE";
 									type="rectangle";
-									colorName="ColorGrey";
-									alpha=0.22543553;
-									fillName="SolidBorder";
+									colorName="ColorWhite";
+									fillName="Border";
 									a=1420.042;
 									b=181.21201;
 									drawBorder=1;
 									id=2683;
-									atlOffset=29.657;
+									atlOffset=42.493;
 								};
 								class Item53
 								{
 									dataType="Marker";
-									position[]={7126.0381,1.026,5997.6919};
+									position[]={5703.7373,22.219231,5749.3638};
 									name="el1_1";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorBlue";
+									colorName="ColorUNKNOWN";
 									fillName="SolidFull";
 									a=32;
 									b=32;
 									id=2684;
-									atlOffset=4.4024258;
+									atlOffset=17.238476;
 								};
 								class Item54
 								{
 									dataType="Marker";
-									position[]={7129.7861,0.98100001,5857.0171};
+									position[]={5707.4854,13.027113,5608.689};
 									name="m3_1";
 									markerType="ELLIPSE";
 									type="ellipse";
-									colorName="ColorEAST";
+									colorName="ColorGreen";
 									fillName="SolidFull";
 									a=64;
 									b=64;
 									id=2685;
-									atlOffset=-4.9590001;
+									atlOffset=7.8770494;
 								};
 								class Item55
 								{
 									dataType="Marker";
-									position[]={8356.2324,0.98100001,7245.1108};
+									position[]={6933.9316,12.17,6996.7827};
 									name="hide_map";
 									markerType="RECTANGLE";
 									type="rectangle";
-									colorName="ColorWhite";
+									colorName="ColorBlack";
 									alpha=0;
 									fillName="SolidFull";
 									a=1424.387;
 									b=1509.483;
 									id=2690;
-									atlOffset=-12.83605;
 								};
 							};
 							id=2338;
-							atlOffset=16.677235;
+							atlOffset=6.7435369;
 						};
 						class Item1
 						{
@@ -49487,37 +49513,40 @@ class Mission
 						class Item2
 						{
 							dataType="Marker";
-							position[]={7158.6372,0.93800002,6000.1802};
+							position[]={5736.3359,18.724001,5751.8521};
 							name="marker_3";
 							text="Entries";
 							type="mrk_ts_desc";
+							colorName="ColorUNKNOWN";
 							id=2686;
-							atlOffset=8.7110119;
+							atlOffset=21.547277;
 						};
 						class Item3
 						{
 							dataType="Marker";
-							position[]={7191.02,1.0369999,5859.5649};
+							position[]={5768.7192,-5.7529998,5611.2368};
 							name="marker_4";
 							text="Mission Objectives";
 							type="mrk_ts_desc";
+							colorName="ColorGreen";
 							id=2687;
-							atlOffset=-4.9029999;
+							atlOffset=7.9325938;
 						};
 						class Item4
 						{
 							dataType="Marker";
-							position[]={7087.1919,0.93699998,8673.1025};
+							position[]={5664.8911,1.1210001,8424.7744};
 							name="marker_5";
 							text="TUNNELS MAP";
 							type="mrk_ts_desc";
+							colorName="ColorWhite";
 							a=0;
 							id=2689;
-							atlOffset=18.207001;
+							atlOffset=31.042702;
 						};
 					};
 					id=2413;
-					atlOffset=9.0104046;
+					atlOffset=-5.7708621;
 				};
 				class Item3
 				{
@@ -51497,7 +51526,7 @@ class Mission
 				};
 			};
 			id=2708;
-			atlOffset=-14.639986;
+			atlOffset=-0.22261047;
 		};
 		class Item1
 		{
@@ -51553,7 +51582,7 @@ class Mission
 			name="DynAI Layer";
 			class Entities
 			{
-				items=1;
+				items=4;
 				class Item0
 				{
 					dataType="Logic";
@@ -51566,8 +51595,107 @@ class Mission
 					id=2998;
 					type="Logic";
 				};
+				class Item1
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={3776.5183,15.701611,7793.8237};
+						angles[]={0.068148986,0,6.1559124};
+					};
+					name="dzn_dynai_core";
+					id=3152;
+					type="Logic";
+				};
+				class Item2
+				{
+					dataType="Layer";
+					name="camp zone";
+					class Entities
+					{
+						items=3;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={3450.7839,16.463114,7831.4287};
+								angles[]={0.017997233,0,6.2561917};
+							};
+							name="camp";
+							id=3153;
+							type="Logic";
+						};
+						class Item1
+						{
+							dataType="Trigger";
+							position[]={3465.9658,15.416249,8213.7461};
+							angle=3.1482322;
+							class Attributes
+							{
+								sizeA=408.90524;
+								sizeB=104.03003;
+							};
+							id=3154;
+							type="EmptyDetectorAreaR250";
+							atlOffset=-0.074901581;
+						};
+						class Item2
+						{
+							dataType="Trigger";
+							position[]={3059.7847,31.972889,8053.7334};
+							angle=3.1482322;
+							class Attributes
+							{
+								sizeA=112.93717;
+								sizeB=119.55015;
+							};
+							id=3156;
+							type="EmptyDetectorAreaR250";
+							atlOffset=17.19289;
+						};
+					};
+					id=3155;
+					atlOffset=3.439846;
+				};
+				class Item3
+				{
+					dataType="Layer";
+					name="village zone";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={3465.7095,13.668209,7703.9355};
+								angles[]={6.248199,0,6.1854978};
+							};
+							name="village";
+							id=3157;
+							type="Logic";
+						};
+						class Item1
+						{
+							dataType="Trigger";
+							position[]={2615.9028,16.414114,7681.21};
+							class Attributes
+							{
+								sizeA=250;
+								sizeB=250;
+							};
+							id=3158;
+							type="EmptyDetectorAreaR250";
+						};
+					};
+					id=3159;
+					atlOffset=-7.1468039;
+				};
 			};
 			id=2999;
+			atlOffset=3.0247364;
 		};
 		class Item5
 		{
@@ -52812,18 +52940,18 @@ class Mission
 			name="dzn_Gear Layer";
 			class Entities
 			{
-				items=3;
+				items=4;
 				class Item0
 				{
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={3299.792,1.0570011,9963.1719};
+						position[]={2958.4429,27.132135,8379.2539};
+						angles[]={6.1245298,0,0.20794973};
 					};
 					init="this setVariable ['dzn_gear', 'kit_us_captive'];";
 					id=3051;
 					type="Logic";
-					atlOffset=26.107;
 				};
 				class Item1
 				{
@@ -52848,9 +52976,20 @@ class Mission
 					id=3054;
 					type="Logic";
 				};
+				class Item3
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={3068.042,14.78,8075.8794};
+					};
+					init="this setVariable ['dzn_gear', 'kit_nva_vip'];";
+					id=3162;
+					type="Logic";
+				};
 			};
 			id=3052;
-			atlOffset=23.793415;
+			atlOffset=-2.8296032;
 		};
 		class Item11
 		{
@@ -52987,6 +53126,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
+						health=0.5;
 					};
 					id=3071;
 					type="I_soldier_F";
@@ -53079,7 +53219,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						health=0.56339222;
+						health=0.5;
 					};
 					id=3073;
 					type="I_soldier_F";
@@ -53170,7 +53310,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						health=0.56339222;
+						health=0.5;
 					};
 					id=3075;
 					type="I_soldier_F";
@@ -53256,18 +53396,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6149.0669,12.067775,7130.1475};
+						position[]={6149.0669,12.067802,7130.1479};
 						angles[]={0,3.3130887,0};
 					};
 					side="Independent";
 					flags=7;
 					class Attributes
 					{
-						health=0.56339222;
+						health=0.5;
 					};
 					id=3077;
 					type="I_soldier_F";
-					atlOffset=0.047046661;
+					atlOffset=0.046999931;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -53335,7 +53475,7 @@ class Mission
 			{
 			};
 			id=3076;
-			atlOffset=0.047046661;
+			atlOffset=0.046999931;
 		};
 		class Item16
 		{
@@ -53356,7 +53496,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						health=0.56761652;
+						health=0.5;
 					};
 					id=3079;
 					type="I_soldier_F";
@@ -53447,7 +53587,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						health=0.56761652;
+						health=0.5;
 					};
 					id=3081;
 					type="I_soldier_F";
@@ -53632,7 +53772,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						health=0.56761652;
+						health=0.5;
 					};
 					id=3085;
 					type="I_soldier_F";
@@ -54502,15 +54642,16 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={3183.6055,10.567567,5923.4258};
-						angles[]={-0,0,5.7636089};
+						position[]={3622.4331,28.701239,6742.4526};
+						angles[]={0.0039967569,0,0.11153521};
 					};
 					name="tSF_CoverMap";
-					areaSize[]={2000,0,2000};
+					areaSize[]={1892.8574,0,1908.5105};
 					areaIsRectangle=1;
 					flags=1;
 					id=3134;
 					type="ModuleCoverMap_F";
+					atlOffset=-23.745893;
 				};
 				class Item2
 				{
@@ -54571,7 +54712,7 @@ class Mission
 				};
 			};
 			id=3133;
-			atlOffset=-0.013925552;
+			atlOffset=-0.1114521;
 		};
 		class Item22
 		{
@@ -54709,16 +54850,134 @@ class Mission
 			};
 			id=3149;
 		};
+		class Item28
+		{
+			dataType="Marker";
+			position[]={2615.717,17.903999,7654.668};
+			name="show_it";
+			text="Find tunnels around the village";
+			type="mil_unknown";
+			colorName="ColorRed";
+			alpha=0;
+			id=3164;
+			atlOffset=1.0460453;
+		};
+		class Item29
+		{
+			dataType="Marker";
+			position[]={3064.7561,33.764,8052.1011};
+			name="mrk";
+			text="POW Camp";
+			type="o_installation";
+			colorName="ColorEAST";
+			id=3165;
+			atlOffset=18.984001;
+		};
+		class Item30
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3065.4971,15.351439,8074.1357};
+						angles[]={0,3.2837148,0};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						init="call{commandStop (units this); this forceSpeed 0;}";
+						name="tell_me";
+						presence=0.5929634;
+					};
+					id=3163;
+					type="O_T_Soldier_SL_F";
+					atlOffset=0.30131054;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02CHI";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3166;
+			atlOffset=0.30131054;
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=126;
+			nextID=132;
 		};
 		class Links
 		{
-			items=126;
+			items=132;
 			class Item0
 			{
 				linkID=0;
@@ -55974,6 +56233,66 @@ class Mission
 				linkID=125;
 				item0=3056;
 				item1=3150;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item126
+			{
+				linkID=126;
+				item0=3152;
+				item1=3153;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item127
+			{
+				linkID=127;
+				item0=3154;
+				item1=3153;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item128
+			{
+				linkID=128;
+				item0=3156;
+				item1=3153;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item129
+			{
+				linkID=129;
+				item0=3152;
+				item1=3157;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item130
+			{
+				linkID=130;
+				item0=3158;
+				item1=3157;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item131
+			{
+				linkID=131;
+				item0=3163;
+				item1=3162;
 				class CustomData
 				{
 					type="Sync";
