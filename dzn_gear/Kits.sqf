@@ -139,7 +139,7 @@ kit_us_captive = [
 	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","","",captive_head,""],
 	["<PRIMARY WEAPON >>  ","","",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[]],
