@@ -8,11 +8,11 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=3222;
+		nextID=3223;
 	};
 	class MarkerIDProvider
 	{
-		nextID=8;
+		nextID=9;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3042.4983,44.687672,8003.2788};
-		dir[]={0.26509133,-0.59926015,0.75552392};
-		up[]={0.19841847,0.80051178,0.56549913};
-		aside[]={0.94369042,2.224333e-007,-0.33111531};
+		pos[]={1760.677,39.205498,8194.377};
+		dir[]={0.65935838,-0.61356807,0.43456304};
+		up[]={0.51231176,0.78963602,0.33764911};
+		aside[]={0.55031508,7.0757233e-007,-0.83499342};
 	};
 };
 binarizationWanted=0;
@@ -402,24 +402,27 @@ class Mission
 		overviewText="US forces are to rescue POWs in Vietnam";
 		resistanceEast=1;
 		timeOfChanges=1800.0002;
-		startWeather=1;
+		startWeather=0;
 		startWind=0.1;
 		startWaves=0.1;
 		forecastWeather=0;
 		forecastWind=0.1;
 		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		rainForced=1;
+		lightningsForced=1;
 		year=1982;
 		month=12;
 		day=15;
 		hour=12;
 		minute=23;
+		startFogBase=-1000;
+		forecastFogBase=-1000;
 		startFogDecay=0;
 		forecastFogDecay=0;
 	};
 	class Entities
 	{
-		items=52;
+		items=53;
 		class Item0
 		{
 			dataType="Layer";
@@ -55812,6 +55815,15 @@ class Mission
 			{
 			};
 			id=3167;
+		};
+		class Item52
+		{
+			dataType="Marker";
+			position[]={1774.297,2.97,8215.7227};
+			name="marker_8";
+			text="Scouts + Light Artillery Provider";
+			type="hd_warning";
+			id=3222;
 		};
 	};
 	class Connections
