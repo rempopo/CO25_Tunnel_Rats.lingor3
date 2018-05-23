@@ -53,5 +53,10 @@ MissionCondition1 = [ "WIN", { (true)
 			&& call fnc_CheckPlayersReturned
 }, "All objectives done" ];
 
-MissionCondition2 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];
+MissionCondition2 = [ "PART", { (true) 
+			&& [ baseTrg, "independent", "", "<= 4"] call dzn_fnc_ccUnits 
+			&& call fnc_CheckPlayersReturned
+}, "Partial win" ];
+
+MissionCondition3 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];
 
