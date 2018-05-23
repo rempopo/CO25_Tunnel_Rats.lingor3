@@ -54,7 +54,7 @@ MissionCondition1 = [ "WIN", { (true)
 }, "All objectives done" ];
 
 MissionCondition2 = [ "PART", { (true) 
-			&& [ baseTrg, "independent", "", "<= 4"] call dzn_fnc_ccUnits 
+			&& [ baseTrg, "independent", "", "> 0"] call dzn_fnc_ccUnits 
 			&& call fnc_CheckPlayersReturned
 }, "Partial win" ];
 
