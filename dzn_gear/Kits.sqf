@@ -83,7 +83,7 @@ kit_us_sl = [
 ];
 
 kit_us_ftl = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","CUP_B_AlicePack_Khaki","CUP_H_USArmy_Helmet_M1_Olive",us_face],
 	["<PRIMARY WEAPON >>  ","RH_M16A1gl","20Rnd_556x45_Stanag",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
