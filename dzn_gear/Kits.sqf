@@ -105,14 +105,14 @@ kit_us_ar = [
 ];
 
 kit_us_gr = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","usm_pack_abag_m60","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","CUP_B_AlicePack_Bedroll","CUP_H_USArmy_Helmet_M1_Olive",us_face],
 	["<PRIMARY WEAPON >>  ","CUP_glaunch_M79","1Rnd_HE_Grenade_shell",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhsusf_weap_m1911a1","rhsusf_mag_7x45acp_MHP",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[]],
 	["<VEST ITEMS >> ",[UNIFORM_ITEMS,["HandGrenade",2],["PRIMARY MAG",24],["1Rnd_SmokeRed_Grenade_shell",4],["CUP_1Rnd_Smoke_M203",4],["UGL_FlareGreen_F",4]]],
-	["<BACKPACK ITEMS >> ",[["HANDGUN MAG",8]]]
+	["<BACKPACK ITEMS >> ",[["HANDGUN MAG",8],["UGL_FlareWhite_F",20]]]
 ];
 
 kit_us_r = [
@@ -151,16 +151,15 @@ kit_us_captive = [
 //
 
 #define vc_hat ["TRYK_H_Bandana_H","TRYK_H_Bandana_wig","TRYK_H_Bandana_wig_g","H_Hat_Safari_olive_F","H_Booniehat_khk","H_Booniehat_oli","CUP_H_TK_Helmet"]
-#define vc_uni ["CUP_U_O_SLA_Overalls_Tank","U_I_C_Soldier_Para_5_F","U_I_C_Soldier_Bandit_5_F","U_I_C_Soldier_Bandit_1_F"]
+#define vc_uni "CUP_U_O_SLA_Overalls_Tank"
 #define vc_vest ["CUP_V_I_Carrier_Belt","CUP_V_O_SLA_Carrier_Belt02","CUP_V_O_Ins_Carrier_Rig"]
 
-kit_vc_random = [ "kit_vc_r","kit_vc_r""kit_vc_r""kit_vc_r""kit_vc_r"
+kit_vc_random = [ "kit_vc_r","kit_vc_r","kit_vc_r","kit_vc_r","kit_vc_r"
 		,"kit_vc_ar"
 ];
 
 kit_vc_ar = [ "kit_vc_ar1"
-			,"kit_vc_ar2","kit_vc_ar2","kit_vc_ar2"
-];
+			,"kit_vc_ar2","kit_vc_ar2","kit_vc_ar2"];
 
 kit_vc_ar1 = [
 	["<EQUIPEMENT >>  ",vc_uni,vc_vest,"",vc_hat,""],
@@ -184,7 +183,8 @@ kit_vc_ar2 = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
-kit_vc_r = [ "kit_vc_scorp"
+kit_vc_r = [ "kit_vc_sks","kit_vc_sks","kit_vc_sks","kit_vc_sks"
+			,"kit_vc_scorp"
 			,"kit_vc_pm","kit_vc_pm"
 			,"kit_vc_sks","kit_vc_sks","kit_vc_sks","kit_vc_sks"
 ];

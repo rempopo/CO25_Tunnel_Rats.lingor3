@@ -12,7 +12,7 @@
  */
 tSF_ArtillerySupport_AuthorizedUsers = [
 	"Admin"
-	,"Platoon Leader"
+	,"1'6 Platoon Leader"
 	,"Platoon Sergeant"
 	,"Командир взвода"
 	,"Зам. командира взвода"
