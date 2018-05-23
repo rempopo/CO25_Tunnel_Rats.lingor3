@@ -67,7 +67,7 @@ kit_us_pl = [
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[]],
-	["<VEST ITEMS >> ",[UNIFORM_ITEMS,["HandGrenade",2],["PRIMARY MAG",9],["SmokeShell",2],["SmokeShellGreen",2]]],
+	["<VEST ITEMS >> ",[UNIFORM_ITEMS_L,["HandGrenade",2],["PRIMARY MAG",9],["SmokeShell",2],["SmokeShellGreen",2]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
