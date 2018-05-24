@@ -6,11 +6,11 @@ tSF_Intro_LineText1	= "%1/%2/1968";
 tSF_Intro_LineStyle1	= "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 2nd line
-tSF_Intro_LineText2	= "Laos borders, East VietNam, Southeast Asia";
+tSF_Intro_LineText2	= "Граница с Лаосом, Восточный Вьетнам, Юговосточная Азия";
 tSF_Intro_LineStyle2	= "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 3rd line
-tSF_Intro_LineText3	= "Operation: 'Tunnel Rats, the'";
+tSF_Intro_LineText3	= "Операция: 'Туннельные Крысы'";
 tSF_Intro_LineStyle3	= "<t align = 'right' shadow = '1' size = '0.9' font='PuristaBold'><br />%1</t>";
 
 // Other settings
