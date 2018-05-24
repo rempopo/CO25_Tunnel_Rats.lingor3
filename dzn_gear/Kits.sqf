@@ -54,14 +54,13 @@
 // US army
 //
 
-#define us_face ["","","","","","G_Spectacles_Tinted","G_Spectacles","G_Squares"]
 #define us_bp ["usm_pack_alice","CUP_B_AlicePack_Bedroll","CUP_B_AlicePack_Khaki"]
 
 #define us_r_w ["RH_M16a1","CUP_srifle_M14"]
 #define us_r_a ["20Rnd_556x45_Stanag","CUP_20Rnd_762x51_DMR"]
 
 kit_us_pl = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_st138_prc77","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_st138_prc77","CUP_H_USArmy_Helmet_M1_Olive",""],
 	["<PRIMARY WEAPON >>  ",us_r_w,us_r_a,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
@@ -72,7 +71,7 @@ kit_us_pl = [
 ];
 
 kit_us_sl = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_st138_prc77","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_st138_prc77","CUP_H_USArmy_Helmet_M1_Olive",""],
 	["<PRIMARY WEAPON >>  ",us_r_w,us_r_a,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
@@ -83,7 +82,7 @@ kit_us_sl = [
 ];
 
 kit_us_ftl = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","CUP_B_AlicePack_Khaki","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","CUP_B_AlicePack_Khaki","CUP_H_USArmy_Helmet_M1_Olive",""],
 	["<PRIMARY WEAPON >>  ","RH_M16A1gl","20Rnd_556x45_Stanag",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
@@ -94,7 +93,7 @@ kit_us_ftl = [
 ];
 
 kit_us_ar = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_762x51_ammobelts","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rmp","usm_pack_762x51_ammobelts","CUP_H_USArmy_Helmet_M1_Olive",""],
 	["<PRIMARY WEAPON >>  ","hlc_m60","rhsusf_100Rnd_762x51_m62_tracer",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhsusf_weap_m1911a1","rhsusf_mag_7x45acp_MHP",["","","",""]],
@@ -105,7 +104,7 @@ kit_us_ar = [
 ];
 
 kit_us_gr = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","CUP_B_AlicePack_Bedroll","CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_gr","CUP_B_AlicePack_Bedroll","CUP_H_USArmy_Helmet_M1_Olive",""],
 	["<PRIMARY WEAPON >>  ","CUP_glaunch_M79","1Rnd_HE_Grenade_shell",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhsusf_weap_m1911a1","rhsusf_mag_7x45acp_MHP",["","","",""]],
@@ -116,7 +115,7 @@ kit_us_gr = [
 ];
 
 kit_us_r = [
-	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rm",us_bp,"CUP_H_USArmy_Helmet_M1_Olive",us_face],
+	["<EQUIPEMENT >>  ","CUP_U_O_TK_Green","usm_vest_LBE_rm",us_bp,"CUP_H_USArmy_Helmet_M1_Olive",""],
 	["<PRIMARY WEAPON >>  ",us_r_w,us_r_a,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","CUP_launch_M72A6","ACE_PreloadedMissileDummy_M72A6_CUP",["","","",""]],
 	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
