@@ -19,7 +19,7 @@ class Params
 	    title = "Allow map auto-discovery?";
 	    values[] = {0,1};
 	    default = 1;
-	    texts[] = {"no","yes"};
+	    texts[] = {"No","Yes"};
 	};
 	class par_daytime
 	{
