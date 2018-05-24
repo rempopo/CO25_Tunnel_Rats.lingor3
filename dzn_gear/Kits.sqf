@@ -128,7 +128,7 @@ kit_us_r = [
 
 cargo_kit_us = [
 	[["CUP_launch_M72A6",5]],
-	[["rhsusf_100Rnd_762x51_m62_tracer",30],["rhsusf_mag_7x45acp_MHP",10],["HandGrenade",20],["20Rnd_556x45_Stanag",40],["CUP_20Rnd_762x51_DMR",40],["1Rnd_HE_Grenade_shell",50],["1Rnd_SmokeRed_Grenade_shell",10],["CUP_1Rnd_Smoke_M203",10],["UGL_FlareGreen_F",10],["SmokeShell",10],["SmokeShellGreen",10]],
+	[["rhsusf_100Rnd_762x51_m62_tracer",10],["rhsusf_mag_7x45acp_MHP",10],["HandGrenade",10],["20Rnd_556x45_Stanag",20],["CUP_20Rnd_762x51_DMR",20],["1Rnd_HE_Grenade_shell",20],["1Rnd_SmokeRed_Grenade_shell",10],["CUP_1Rnd_Smoke_M203",10],["UGL_FlareGreen_F",10],["SmokeShell",10],["SmokeShellGreen",10]],
 	[["ACE_fieldDressing",20],["ACE_packingBandage",20],["ACE_elasticBandage",20],["ACE_tourniquet",10],["ACE_morphine",10],["ACE_epinephrine",10],["ACE_quikclot",20],["ACE_Flashlight_MX991",10]],
 	[]
 ];
