@@ -19,7 +19,7 @@ INTRACTIVES_TABLE
 	[
 		[tell_me]
 		, {
-			_this addAction ["Interrogate NVA Officer", {hint "Alright, alright, we moved the rest of POWs into the tunnels around this village";"show_it" setMarkerAlpha 1;}];
+			_this addAction ["Ask NVA Informator", {hint "We moved the rest of POWs into the tunnels around this village. You have to circle around in the woods a bit. Entries are hidden away by lots of tall banana bushes. Those will be the tallest plants in the jungle";"show_it" setMarkerAlpha 1;}];
 		}
 		, "global"
 		, true
