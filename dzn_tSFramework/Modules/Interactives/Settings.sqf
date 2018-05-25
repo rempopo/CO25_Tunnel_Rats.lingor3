@@ -19,7 +19,13 @@ INTRACTIVES_TABLE
 	[
 		[tell_me]
 		, {
-			_this addAction ["Ask NVA Informator", {hint "We moved the rest of POWs into the tunnels around this village. You have to circle around in the woods a bit. Entries are hidden away by lots of tall banana bushes. Those will be the tallest plants in the jungle";"show_it" setMarkerAlpha 1;}];
+			_this addAction ["Опросить информатора", {
+				hint "Мы перевели остальных пленных в туннели под этой деревней (помечает на карте). Прочешите джунгли вокруг деревни и вы найдёте входы в туннели. Они накрыты камуфляжной сеткой и прикрыты крупными банановыми кустами, это будут самые высокие растения в джунглях, ну кроме самих деревьев?";
+			"show_it" setMarkerAlpha 1;
+			"show_it1" setMarkerAlpha 1;
+			"show_it2" setMarkerAlpha 1;
+			"show_it3" setMarkerAlpha 1;
+			}];
 		}
 		, "global"
 		, true
