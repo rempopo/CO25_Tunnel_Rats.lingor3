@@ -41,7 +41,6 @@ TOPIC("III. Выполнение:")
 <br />
 <br />Скауты готовы развернуть CCP в районе FOB Echo, FOB Eddie или FOB Zanjeer
 <br />В случае необходимости вам могут быть переданы M113 на FOB Echo"
-"
 END
 
 TOPIC("IV. Поддержка:")
