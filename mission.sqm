@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2083.8267,203.06995,7534.73};
-		dir[]={0.67924356,-0.54329795,0.49345472};
-		up[]={0.43955579,0.83953267,0.31932792};
-		aside[]={0.58776361,8.9450623e-008,-0.80906171};
+		pos[]={3071.0332,39.812347,8055.8457};
+		dir[]={-0.54523921,-0.61346883,-0.57130235};
+		up[]={-0.42354652,0.78971726,-0.44379231};
+		aside[]={-0.72342163,1.6845297e-007,0.69041878};
 	};
 };
 binarizationWanted=0;
@@ -53877,6 +53877,25 @@ class Mission
 					{
 						class Attribute0
 						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -53894,7 +53913,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute1
+						class Attribute2
 						{
 							property="speaker";
 							expression="_this setspeaker _value;";
@@ -53913,7 +53932,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute2
+						class Attribute3
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -53932,7 +53951,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute3
+						class Attribute4
 						{
 							property="ace_isSurrendered";
 							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
@@ -53951,7 +53970,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=4;
+						nAttributes=5;
 					};
 				};
 			};
