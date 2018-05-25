@@ -44,4 +44,4 @@ tSF_AirborneSupport_FuelLimit		= 0.15;
  */
  
 tSF_AirborneSupport_PilotClass 		= "B_helipilot_F";
-tSF_AirborneSupport_PilotKit		= "";
+tSF_AirborneSupport_PilotKit		= "kit_us_pilot";

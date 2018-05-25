@@ -145,6 +145,17 @@ kit_us_captive = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
+kit_us_pilot = [
+	["<EQUIPEMENT >>  ","CUP_U_B_USMC_PilotOverall","CUP_V_B_PilotVest","","CUP_H_USMC_Helmet_Pilot","G_Aviator"],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","KA_TL_122_flashlight_Red","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","tf_microdagr","CUP_NVG_PVS7","Binocular"],
+	["<UNIFORM ITEMS >> ",[]],
+	["<VEST ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_CableTie",2],["ACE_Flashlight_MX991",1],["ACE_EarPlugs",1],["ACE_MapTools",1],["HandGrenade",2]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
 //
 // Viet Cong partisans
 //
