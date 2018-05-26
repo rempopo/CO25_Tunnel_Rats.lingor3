@@ -274,10 +274,10 @@ randomSeed=4711980;
 class ScenarioData
 {
 	author="lim";
-	overviewText="US forces are to rescue POWs in Vietnam";
+	overviewText="US forces attempt to rescue POWs from Vietcong camp";
 	overViewPicture="overview.jpg";
 	overViewPictureLocked="overview.jpg";
-	onLoadMission="US forces are to rescue POWs in Vietnam";
+	onLoadMission="US forces attempt to rescue POWs from Vietcong camp";
 	loadScreen="overview.jpg";
 	saving=0;
 	respawnDialog=0;
