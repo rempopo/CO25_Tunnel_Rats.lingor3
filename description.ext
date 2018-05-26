@@ -16,10 +16,10 @@ class Params
 {   
 	class par_map
 	{
-	    title = "Allow map auto-discovery?";
+	    title = "Разрешить авто-генерацию карты?";
 	    values[] = {0,1};
 	    default = 1;
-	    texts[] = {"No","Yes"};
+	    texts[] = {"Нет","Да"};
 	};
 	class par_daytime
 	{
