@@ -10,5 +10,5 @@ US troops attempt to rescue captives from Viet Cong prison camp
 # NOT APPROVED
 | Reviewer | Result |
 | ------------ | ------------- |
-| - | - |
+| Vonscheer | APPROVE |
 | - | - |
