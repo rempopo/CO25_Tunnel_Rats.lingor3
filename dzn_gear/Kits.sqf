@@ -54,6 +54,8 @@
 // US army
 //
 
+// vonscheer's awesome changes
+
 #define us_bp ["usm_pack_alice","CUP_B_AlicePack_Bedroll","CUP_B_AlicePack_Khaki"]
 
 #define us_r_w ["RH_M16a1","CUP_srifle_M14"]
